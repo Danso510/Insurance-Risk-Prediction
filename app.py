@@ -559,7 +559,6 @@ recommendation_output = gr.Textbox(
     # RIGHT COLUMN
     # =====================================================
 
-with gr.Column():
 
         gr.Markdown("## ❤️ Health & Insurance Information")
 
