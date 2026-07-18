@@ -564,10 +564,10 @@ recommendation_output = gr.Textbox(
 
         # bmi = gr.Number(label="BMI", value=24.5)
 
-        smoker = gr.Dropdown(
-            ["No", "Yes"],
-            label="Smoker"
-        )
+       # smoker = gr.Dropdown(
+        #    ["No", "Yes"],
+        #    label="Smoker"
+        #)
 
         tenure_months = gr.Number(
             label="Tenure (Months)",
