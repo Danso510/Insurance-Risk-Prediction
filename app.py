@@ -1,13 +1,12 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import pandas as pd
 import numpy as np
 import joblib
 import gradio as gr
+
+import streamlit as st
+st.title("Insurance Risk Prediction System")
 
 from xgboost import XGBClassifier
 
@@ -892,4 +891,7 @@ with gr.Blocks(
                     ]
                 )
 
+
+if __name__ == "__main__":
+    main()
 
