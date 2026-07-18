@@ -560,7 +560,7 @@ recommendation_output = gr.Textbox(
     # =====================================================
 
 
-        gr.Markdown("## ❤️ Health & Insurance Information")
+        # gr.Markdown("## ❤️ Health & Insurance Information")
 
         bmi = gr.Number(label="BMI", value=24.5)
 
