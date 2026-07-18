@@ -577,7 +577,7 @@ recommendation_output = gr.Textbox(
         #policy_age_days = gr.Number(
          #   label="Policy Age (Days)",
           #  value=365
-        )
+       # )
 
         #monthly_income = gr.Number(
          #   label="Monthly Income (GHS)",
