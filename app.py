@@ -569,30 +569,30 @@ recommendation_output = gr.Textbox(
         #    label="Smoker"
         #)
 
-        tenure_months = gr.Number(
-            label="Tenure (Months)",
-            value=12
+       # tenure_months = gr.Number(
+        #    label="Tenure (Months)",
+         #   value=12
+        #)
+
+        #policy_age_days = gr.Number(
+         #   label="Policy Age (Days)",
+          #  value=365
         )
 
-        policy_age_days = gr.Number(
-            label="Policy Age (Days)",
-            value=365
-        )
+        #monthly_income = gr.Number(
+         #   label="Monthly Income (GHS)",
+          #  value=5000
+        #)
 
-        monthly_income = gr.Number(
-            label="Monthly Income (GHS)",
-            value=5000
-        )
+        #premium = gr.Number(
+         #   label="Premium (GHS)",
+          #  value=500
+        #)
 
-        premium = gr.Number(
-            label="Premium (GHS)",
-            value=500
-        )
-
-        claim_frequency = gr.Number(
-            label="Claim Frequency",
-            value=1
-        )
+        #claim_frequency = gr.Number(
+         #   label="Claim Frequency",
+          #  value=1
+        #)
 
         payment_behavior = gr.Dropdown(
             [
